@@ -24,9 +24,9 @@
 
 ```mermaid
 flowchart LR
-  A[Browser\n(HTML/CSS/JS)] --> B[Express\nRouting/Controller]
-  B --> C[Service Layer\n(Validation/Rules)]
-  C --> D[DAO Layer\n(SQLite3 prepared statements)]
+  A[Browser<br/>HTML/CSS/JS] --> B[Express<br/>Routing/Controller]
+  B --> C[Service Layer<br/>Validation/Rules]
+  C --> D[DAO Layer<br/>SQLite3 prepared statements]
   D --> E[(SQLite DB)]
-  B --> F[Auth & Session\n(express-session)]
-  B --> G[Scraper CLI\n(取得手順のみ公開)]
+  B --> F[Auth & Session<br/>express-session]
+  B --> G[Scraper CLI<br/>取得手順のみ公開]

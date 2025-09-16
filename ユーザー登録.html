@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h4>ユーザー登録</h4>
+
+    <form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">姓</label>
+    <input type="text" class="form-control" id="validationCustom01" value="山田" required>
+    <div class="valid-feedback">
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">名</label>
+    <input type="text" class="form-control" id="validationCustom02" value="太郎" required>
+    <div class="valid-feedback">
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">ユーザー名</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">大学名</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">学部</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">選択</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">学科</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">選択</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">市区町村</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">都道府県</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">選択</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom05" class="form-label">郵便番号</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+    <div class="invalid-feedback">
+    </div>
+  </div>
+  <label for="inputPassword5" class="form-label">パスワード</label>
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+<div id="passwordHelpBlock" class="form-text">
+  半角8－20字
+</div>
+<nav id="navbar-example3" class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">本サイトの注意事項</a>
+  <nav class="nav nav-pills flex-column">
+    <a class="nav-link" href="#item-1">1</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link ms-3 my-1" href="#item-1-1">1.1</a>
+      <a class="nav-link ms-3 my-1" href="#item-1-2">1.2</a>
+    </nav>
+    <a class="nav-link" href="#item-2">2</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link ms-3 my-1" href="#item-3-1">2.1</a>
+      <a class="nav-link ms-3 my-1" href="#item-3-2">2.2</a>
+    </nav>
+  </nav>
+</nav>
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+  <h4 id="item-1">1</h4>
+  <p>...</p>
+  <h5 id="item-1-1">1.1</h5>
+  <p>...</p>
+  <h5 id="item-1-2">1.2</h5>
+  <p>...</p>
+  <h4 id="item-2">2</h4>
+  <p>...</p>
+  <h5 id="item-3-1">2.1</h5>
+  <p>...</p>
+  <h5 id="item-3-2">2.2</h5>
+  <p>...</p>
+</div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        利用規約に同意
+      </label>
+      <div class="invalid-feedback">
+        送信前に同意する必要があります。
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">フォームを送信</button>
+  </div>
+</form>
+
+  </body>
+</html>
